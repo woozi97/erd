@@ -523,7 +523,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="zaXRRol6MCLwehQcWyVK" name="학사관리시스템_개념적모델링">
-    <mxGraphModel dx="757" dy="886" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="757" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -598,7 +598,7 @@
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-87" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5ccm-GiaPKEuvV7FS_T-86">
           <mxGeometry x="-0.784" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-89" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="D5ccm-GiaPKEuvV7FS_T-58" target="D5ccm-GiaPKEuvV7FS_T-81">
@@ -609,7 +609,7 @@
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-91" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5ccm-GiaPKEuvV7FS_T-89">
           <mxGeometry x="0.7321" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-5" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-92" value="학생" style="whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
@@ -653,7 +653,7 @@
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-101" value="M" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5ccm-GiaPKEuvV7FS_T-100">
           <mxGeometry x="-0.784" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="1" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-102" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="D5ccm-GiaPKEuvV7FS_T-92" target="D5ccm-GiaPKEuvV7FS_T-99">
@@ -664,7 +664,7 @@
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-103" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5ccm-GiaPKEuvV7FS_T-102">
           <mxGeometry x="0.7621" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-104" value="수강번호" style="ellipse;whiteSpace=wrap;html=1;align=center;fontStyle=4;" vertex="1" parent="1">
@@ -720,7 +720,7 @@
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-116" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5ccm-GiaPKEuvV7FS_T-115">
           <mxGeometry x="-0.784" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-117" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="D5ccm-GiaPKEuvV7FS_T-113">
@@ -731,7 +731,7 @@
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-118" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5ccm-GiaPKEuvV7FS_T-117">
           <mxGeometry x="0.7321" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-10" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-119" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="D5ccm-GiaPKEuvV7FS_T-114" target="D5ccm-GiaPKEuvV7FS_T-108">
@@ -742,7 +742,7 @@
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-120" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5ccm-GiaPKEuvV7FS_T-119">
           <mxGeometry x="-0.784" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-2" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-121" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="D5ccm-GiaPKEuvV7FS_T-49" target="D5ccm-GiaPKEuvV7FS_T-114">
@@ -753,7 +753,7 @@
         </mxCell>
         <mxCell id="D5ccm-GiaPKEuvV7FS_T-122" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="D5ccm-GiaPKEuvV7FS_T-121">
           <mxGeometry x="0.7321" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
