@@ -1,9 +1,79 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
-  <diagram name="페이지-1" id="XJGpMHiIMnZueEVfEinM">
-    <mxGraphModel>
+  <diagram name="SecurityBuilder / SecurityConfigurer" id="XJGpMHiIMnZueEVfEinM">
+    <mxGraphModel dx="701" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-1" value="AutoConfiguration" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="200" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-2" value="SecurityBuilder" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="315" y="200" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-3" value="SecurityConfigurer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="200" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-4" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="129" y="430" as="sourcePoint" />
+            <mxPoint x="129.71" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="384.64" y="430" as="sourcePoint" />
+            <mxPoint x="385.35" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-6" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="639.65" y="430" as="sourcePoint" />
+            <mxPoint x="640.36" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-8" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#696969;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="bDHl1-dY7cT1WQtPbpV8-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="460" y="220" as="sourcePoint" />
+            <mxPoint x="680" y="219.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-14" value="2) 설정 클래스 생성" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bDHl1-dY7cT1WQtPbpV8-8">
+          <mxGeometry x="-0.4936" y="-1" relative="1" as="geometry">
+            <mxPoint x="22" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-9" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#696969;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="350" as="sourcePoint" />
+            <mxPoint x="640" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-15" value="init(B builder) / configuer(B builder)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bDHl1-dY7cT1WQtPbpV8-9">
+          <mxGeometry x="0.1257" y="1" relative="1" as="geometry">
+            <mxPoint x="-10" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-16" value="3) 초기화 작업 진행" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bDHl1-dY7cT1WQtPbpV8-9">
+          <mxGeometry x="-0.0191" relative="1" as="geometry">
+            <mxPoint y="10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-10" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#696969;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="300" as="sourcePoint" />
+            <mxPoint x="380" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-12" value="build()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bDHl1-dY7cT1WQtPbpV8-10">
+          <mxGeometry x="-0.0534" y="1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bDHl1-dY7cT1WQtPbpV8-13" value="1) 빌더 클래스 생성" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bDHl1-dY7cT1WQtPbpV8-10">
+          <mxGeometry x="0.2971" relative="1" as="geometry">
+            <mxPoint x="-42" y="20" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
